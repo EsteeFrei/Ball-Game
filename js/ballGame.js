@@ -105,7 +105,6 @@ function baginPlay() {
 
             case 'ArrowLeft':
                 if (playerCol === 0) {
-                    // אם בעמודה 0, לא מאפשר לעבור לשם אלא אם כן בשורות 5 או 6
                     if (playerRow === 5 || playerRow === 6) {
                         newCol = 11; // עובר לעמודה 11
                     } else {
