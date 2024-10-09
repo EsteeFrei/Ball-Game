@@ -1,0 +1,21 @@
+
+table {
+    border-collapse: collapse;
+    margin: 20px;
+    border: 2px solid black;
+}
+td {
+    width: 30px; /* אפשר לשנות את הגובה והע Width של התאים */
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cell{
+    background-color: rgb(150, 189, 189);
+}
+
+.borderCell{
+    background-color: rgb(228, 83, 196);
+}
